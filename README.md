@@ -11,15 +11,31 @@
   <img src="https://komarev.com/ghpvc/?username=debbindubd&style=flat-square&color=blue" alt=""/>
 </div>
 
-<div align="center">
-  <div id="typewriter" style="font-size: 1.5rem; line-height: 1.5; color: #34d399;">
-    <div class="typewriter-line">DEBBINDU BAIRAGI</div>
-    <div class="typewriter-line" style="color: #22d3ee;">🌟 Machine Learning Enthusiast | Backend Developer | Data & Web Research Expert 🌟</div>
-    <div class="typewriter-line" style="color: #38bdf8;">With a strong foundation in ML and backend development, I combine data management, research, and technical expertise to deliver scalable, data-driven solutions.</div>
-    <div class="typewriter-line" style="color: #818cf8;">Core Skills: Python, Django, SQL, Web Scraping, Data Entry, Web Research</div>
-    <div class="typewriter-line" style="color: #f472b6;">Key Highlights: Efficient backend design, automated data collection, and data insights for optimized operations.</div>
-  </div>
-</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const typewriterContainer = document.getElementById("typewriter");
+    const textArray = [
+      { text: "DEBBINDU BAIRAGI", color: "#34d399" },
+      { text: "🌟 Machine Learning Enthusiast | Backend Developer | Data & Web Research Expert 🌟", color: "#22d3ee" },
+      { text: "With a strong foundation in ML and backend development, I combine data management, research, and technical expertise to deliver scalable, data-driven solutions.", color: "#38bdf8" },
+      { text: "Core Skills: Python, Django, SQL, Web Scraping, Data Entry, Web Research", color: "#818cf8" },
+      { text: "Key Highlights: Efficient backend design, automated data collection, and data insights for optimized operations.", color: "#f472b6" }
+    ];
+
+    let index = 0;
+    function typeWriter() {
+      if (index < textArray.length) {
+        typewriterContainer.innerHTML = `<div class="typewriter-line" style="color: ${textArray[index].color};">${textArray[index].text}</div>`;
+        index++;
+        setTimeout(typeWriter, 3500);
+      } else {
+        index = 0;
+        setTimeout(typeWriter, 3500);
+      }
+    }
+    typeWriter();
+  });
+</script>
 
 <style>
   #typewriter {
