@@ -10,56 +10,45 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=debbindubd&style=flat-square&color=blue" alt=""/>
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const typewriterContainer = document.getElementById("typewriter");
-    const textArray = [
-      { text: "DEBBINDU BAIRAGI", color: "#34d399" },
-      { text: "🌟 Machine Learning Enthusiast | Backend Developer | Data & Web Research Expert 🌟", color: "#22d3ee" },
-      { text: "With a strong foundation in ML and backend development, I combine data management, research, and technical expertise to deliver scalable, data-driven solutions.", color: "#38bdf8" },
-      { text: "Core Skills: Python, Django, SQL, Web Scraping, Data Entry, Web Research", color: "#818cf8" },
-      { text: "Key Highlights: Efficient backend design, automated data collection, and data insights for optimized operations.", color: "#f472b6" }
-    ];
-
-    let index = 0;
-    function typeWriter() {
-      if (index < textArray.length) {
-        typewriterContainer.innerHTML = `<div class="typewriter-line" style="color: ${textArray[index].color};">${textArray[index].text}</div>`;
-        index++;
-        setTimeout(typeWriter, 3500);
-      } else {
-        index = 0;
-        setTimeout(typeWriter, 3500);
-      }
-    }
-    typeWriter();
-  });
-</script>
-
-<style>
-  #typewriter {
-    display: inline-block;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 0.15em solid #34d399;
-    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  }
-
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: #34d399; }
-  }
-</style>
-
 ## <span style="color: #4ecdc4;">🚀 About Me</span>
+# 🌟 Machine Learning Enthusiast | Backend Developer | Data & Web Research Expert 🌟
 I'm a passionate <span style="color: #f7b731;">Python Django Backend Web Developer</span> with a keen interest in <span style="color: #a55eea;">Machine Learning</span>, <span style="color: #0fb9b1;">Web Scraping</span>, <span style="color: #45aaf2;">Deep Learning</span>, and <span style="color: #26de81;">Data Science</span>. I love building robust web applications and exploring the fascinating world of AI and data.
+---
+
+## Core Skills
+
+- **Backend Development**: Proficient in Python, Django, and SQL. I design and implement robust backend solutions that ensure reliable and secure data handling.
+- **Machine Learning**: Actively learning and applying ML concepts to solve real-world problems, with hands-on experience in building intelligent systems.
+- **Data Entry & Web Research**: Precise and detail-oriented in gathering, processing, and analyzing data, with extensive experience in MS Office tools.
+- **Web Scraping**: Expert in extracting valuable insights from web data, using advanced Python libraries to automate data collection and analysis.
+
+---
+
+## Key Highlights
+
+- **Data Entry & Web Research**: Proven track record in supporting decision-making processes through accurate data entry and thorough web research.
+- **Web Scraping**: Expertise in large-scale data extraction, enhancing the quality of information available for strategic insights.
+- **Backend Development**: Focused on building backend infrastructure that supports efficient, data-driven solutions.
+
+---
+
+## Why Connect with Me?
+
+I'm always looking to connect with industry professionals, developers, and data enthusiasts to explore opportunities in **Machine Learning**, **backend development**, and **data science**. Let's discuss how I can support your project goals and help drive your business forward.
+
+Feel free to reach out to discuss potential collaborations or industry insights!
+
+---
+
+### Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/yourprofile/) | [Twitter](https://twitter.com/yourprofile)
+
+---
+
+### Hashtags
+
+#MachineLearning #BackendDevelopment #DataEntry #WebResearch #Python #Django #SQL #WebScraping #DataScience #ArtificialIntelligence #TechIndustry #DataDriven #DigitalTransformation #Automation #PythonDeveloper
 
 ## <span style="color: #fd9644;">💻 Tech Stack</span>
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
