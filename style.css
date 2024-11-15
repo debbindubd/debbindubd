@@ -1,0 +1,70 @@
+/* Update Font Awesome import with latest version and integrity hash */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+/* Add a backup stylesheet link */
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer components {
+  .nav-desktop {
+    @apply hidden lg:flex items-center;
+    gap: 2rem; /* Increased spacing between nav items */
+  }
+  
+  .nav-mobile {
+    @apply lg:hidden;
+  }
+  
+  .nav-link {
+    @apply text-purple-400 hover:text-white transition-colors duration-200;
+    padding: 0.5rem 1rem; /* Added padding around nav items */
+  }
+  
+  .nav-link-active {
+    @apply text-white;
+  }
+  
+  .mobile-menu {
+    @apply fixed top-16 left-0 w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 lg:hidden;
+  }
+  
+  .mobile-menu-link {
+    @apply block w-full px-6 py-4 text-purple-400 hover:text-white hover:bg-purple-900/20 transition-all duration-200;
+    margin: 0.25rem 0; /* Added vertical spacing between mobile menu items */
+  }
+  
+  .container {
+    @apply mx-auto;
+  }
+  
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  
+  .content-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+#mobile-menu-btn {
+  @apply md:hidden;
+}
+
+#typewriter {
+  @apply px-4; /* Add horizontal padding */
+  transition: padding 0.3s ease-in-out;
+}
+
+.typewriter-line {
+  @apply text-center mb-2;
+}
+

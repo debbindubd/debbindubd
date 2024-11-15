@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debbindu Bairagi - Developer Portfolio</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900/90 backdrop-blur-sm z-10 border-b border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="text-lg font-mono">debbindubd</a>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <a href="/" class="nav-link">HOME</a>
+                    <a href="/services.html" class="nav-link">SERVICES</a>
+                    <a href="/team.html" class="nav-link">TEAM</a>
+                    <a href="/contact.html" class="nav-link">CONTACT</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="nav-mobile p-2 rounded-lg hover:bg-gray-700/20">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                              d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu hidden">
+                <div class="py-2">
+                    <a href="/" class="mobile-menu-link">HOME</a>
+                    <a href="/services.html" class="mobile-menu-link">SERVICES</a>
+                    <a href="/team.html" class="mobile-menu-link">TEAM</a>
+                    <a href="/contact.html" class="mobile-menu-link">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center px-4">
+        <div class="text-center max-w-3xl">
+            <div class="mb-8 text-purple-500">
+                <span class="text-5xl md:text-6xl font-mono font-bold">&lt;/&gt;</span>
+            </div>
+            <div id="typewriter" class="text-2xl md:text-3xl leading-relaxed space-y-6"></div>
+        </div>
+    </section>
+
+    <!-- GitHub Repositories Section -->
+    <section id="github-repos" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">My GitHub Repositories</h2>
+            <div id="repos-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Repositories will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto px-4 text-center text-purple-500">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://github.com/debbindubd" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="https://x.com/debbindubd" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-twitter text-2xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/debbindubd/" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://www.facebook.com/debbindubd" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-facebook text-2xl"></i>
+                </a>
+                <a href="https://www.instagram.com/debbindubd/" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+            </div>
+            <p class="text-sm">Copyright by @debbindubd</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

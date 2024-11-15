@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Debbindu Bairagi</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white flex flex-col min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900/90 backdrop-blur-sm z-10 border-b border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="text-lg font-mono">debbindubd</a>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <a href="/" class="nav-link">HOME</a>
+                    <a href="/services.html" class="nav-link">SERVICES</a>
+                    <a href="/team.html" class="nav-link">TEAM</a>
+                    <a href="/contact.html" class="nav-link">CONTACT</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="nav-mobile p-2 rounded-lg hover:bg-gray-700/20">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                              d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu hidden">
+                <div class="py-2">
+                    <a href="/" class="mobile-menu-link">HOME</a>
+                    <a href="/services.html" class="mobile-menu-link">SERVICES</a>
+                    <a href="/team.html" class="mobile-menu-link">TEAM</a>
+                    <a href="/contact.html" class="mobile-menu-link">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Section -->
+    <section class="pt-24 pb-20 flex-grow">
+        <div class="max-w-6xl mx-auto px-4">
+            <h1 class="text-4xl font-bold text-center mb-16">Our Team</h1>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Team Member Card 1 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/deb.jpg" alt="Debbindu Bairagi" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Debbindu Bairagi</h2>
+                    <p class="text-purple-400 mb-4">Machine Learning Enthusiast</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">GitHub</a> -->
+                    </div>
+                </div>
+
+                <!-- Team Member Card 2 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/naeem.jpg" alt="Md Abu Naeem" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Md Abu Naeem</h2>
+                    <p class="text-purple-400 mb-4">Frontend Designer</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">GitHub</a> -->
+                    </div>
+                </div>
+
+                <!-- Team Member Card 3 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/sristi.png" alt="Sristi Halder" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Sristi Halder</h2>
+                    <p class="text-purple-400 mb-4">Data Entry Specialist</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">Dribbble</a> -->
+                    </div>
+                </div>
+
+                <!-- Team Member Card 4 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/micale.jpg" alt="Michael Sarkar" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Michael Sarkar</h2>
+                    <p class="text-purple-400 mb-4">Power-Bi, Macro Expert</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">Email</a> -->
+                    </div>
+                </div>
+                <!-- Team Member Card 6 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/swasti.jpg" alt="Swasti Prosad Mondal" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Swasti Prosad Mondal</h2>
+                    <p class="text-purple-400 mb-4">Full Stack Developer</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">GitHub</a> -->
+                    </div>
+                </div>
+                <!-- Team Member Card 5 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/ssroy.png" alt="Siddhartha Sankar Roy" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Siddhartha Sankar Roy</h2>
+                    <p class="text-purple-400 mb-4">Graphic Artist</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">GitHub</a> -->
+                    </div>
+                </div>
+
+                <!-- Team Member Card 6 -->
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/sfjasl.png" alt="Sharabon Mondal" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Sharabon Mondal</h2>
+                    <p class="text-purple-400 mb-4">Social Media Specialist</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">GitHub</a> -->
+                    </div>
+                </div>
+                <div class="bg-gray-700/20 rounded-lg p-6 flex flex-col items-center border border-gray-800 hover:border-gray-600 transition-colors">
+                    <img src="img/purnendu.jpg" alt="Purnendu Mondal" class="w-32 h-32 rounded-full mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Purnendu Mondal</h2>
+                    <p class="text-purple-400 mb-4">React Developer</p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-purple-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-purple-400 hover:text-white transition-colors">GitHub</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto px-4 text-center text-purple-500">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://github.com/debbindubd" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="https://x.com/debbindubd" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-twitter text-2xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/debbindubd/" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://www.facebook.com/debbindubd" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-facebook text-2xl"></i>
+                </a>
+                <a href="https://www.instagram.com/debbindubd/" target="_blank" class="hover:text-white transition-colors">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+            </div>
+            <p class="text-sm">Copyright by @debbindubd</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
